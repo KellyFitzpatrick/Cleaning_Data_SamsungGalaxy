@@ -13,6 +13,7 @@ Additional reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
 Process and Method of the code:
 1. The inital stage lets the user set the working directory
+
 2. The libraries are loaded that R will need
 
 3a. The general information files are uploaded.
