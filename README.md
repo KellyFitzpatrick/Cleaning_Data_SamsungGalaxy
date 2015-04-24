@@ -10,7 +10,8 @@ All three main objectives of tidy data analysis were met.
 
 Additiona reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
-Process of the code:
+
+Process and Method of the code:
 1. The inital stage lets the user set the working directory
 2. The libraries are loaded that R will need
 
@@ -43,7 +44,22 @@ Process of the code:
     All commands relating to the train data are labeled train_
     There are also alot of notations/comments in the R code to clearify the steps in the code.
     
-10. 
+10. The Final_Merge dataset contains all of the test and training data
+10a. This dataset is formated to replace the Activity Codes 1-6 with the Activity Names listed in the file
+
+11. To comply with the rules of tidy data the Measurement/Feature fields are melted
+11a. I used the gather function in R to melt the 86 Columns into 2 columns
+11b. The 2 columns/variables created were measurements and value
+
+12. The final data set titles Melted_Data has 4 coulmns which are discussed in detail in the code book
+
+13. Analysis was performed on the Melted_Data set so that we group by id, activity and measurement, the average value was derived
+
+14. The final Analysis was presented in long form with 15,480 rows and 4 columns
+
+Read below for further information.
+
+
 
 
 
