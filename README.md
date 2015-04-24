@@ -8,7 +8,7 @@ All three main objectives of tidy data analysis were met.
 2) Each observation forms a row
 3) Each type of observational unit forms a table
 
-Additiona reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
+Additional reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
 
 Process and Method of the code:
