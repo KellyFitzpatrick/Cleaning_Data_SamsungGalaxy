@@ -1,5 +1,53 @@
 # Cleaning_Data_SamsungGalaxy
 This is my R code, README file and code book for the Coursera Cleaning Data Project
+
+This will walk you through the process of how I went from the origianl data files to the finalized product of tidy data.
+
+All three main objectives of tidy data analysis were met.
+1) Each variable forms a column
+2) Each observation forms a row
+3) Each type of observational unit forms a table
+
+Additiona reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
+
+Process of the code:
+1. The inital stage lets the user set the working directory
+2. The libraries are loaded that R will need
+
+3a. The general information files are uploaded.
+3b. The first file is the activity_labels.txt file containg all codes and names 1 to 6 
+3c. The second file is the features.txt file that contains all the measurements 1 to 561
+
+4a. The training files are uploaded and new column names are added 
+4b. To get the participants ids test/subject_test.txt is loaded
+4c. To get the participants activity test/y_test.txt is loaded
+4d. To get the participants data results test/X_test.txt is loaded
+
+5a. The test files are uploaded and new column names are added 
+5b. To get the participants ids train/subject_test.txt is loaded
+5c. To get the participants activity train/y_test.txt is loaded
+5d. To get the participants data results train/X_test.txt is loaded
+
+6a. The mean and std columns are selected for review (86 results)
+6b. The column names are edited to comply with the rules
+
+7. The three final data tables are merged for the training data the final dataset is called TRAIN2
+8. The three final data tables are merged for the test data the final dataset is called TEST2
+
+9. The Final_Merge dataset combines the test and training data using the rbind function in R
+    The Final_Merge dataset has 10,299 rows and 89 columns
+    The columns start with the x,id,activity, 86 measrements
+    The rows are 7,352 from the train dataset and 2,947 from the test dataset
+    
+    All commands relating to the test data are labeled test_
+    All commands relating to the train data are labeled train_
+    There are also alot of notations/comments in the R code to clearify the steps in the code.
+    
+10. 
+
+
+
+
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
