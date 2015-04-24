@@ -107,3 +107,5 @@ For more information on these values read the README file and the features_info 
 Column 4 is the mean value of that measurement for each id and each activity labeled "value"
    for more information on these values read the README file and the features_info files.
 
+Please read the README.md file for the description of the code and the process that was used to derive this output.
+There is also additional information in the README.md file.
