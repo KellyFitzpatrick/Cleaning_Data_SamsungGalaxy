@@ -11,7 +11,7 @@ All three main objectives of tidy data analysis were met.
 Additional reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
 
-Process and Method of the code:
+###Process and Method of the code:
 
 1. The inital stage lets the user set the working directory
 
