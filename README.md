@@ -34,6 +34,8 @@ Process and Method of the code:
 6a. The mean and std columns are selected for review (86 results)
 6b. The column names are edited to comply with the rules
 
+### Final Stages in the Code for the output file
+
 7. The three final data tables are merged for the training data the final dataset is called TRAIN2
 8. The three final data tables are merged for the test data the final dataset is called TEST2
 
