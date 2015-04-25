@@ -3,10 +3,10 @@ This is my R code, README file and code book for the Coursera Cleaning Data Proj
 
 This will walk you through the process of how I went from the origianl data files to the finalized product of tidy data.
 
-All three main objectives of tidy data analysis were met.
-###1) Each variable forms a column
-###2) Each observation forms a row
-###3) Each type of observational unit forms a table
+####All three main objectives of tidy data analysis were met.
+1) Each variable forms a column
+2) Each observation forms a row
+3) Each type of observational unit forms a table
 
 Additional reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
