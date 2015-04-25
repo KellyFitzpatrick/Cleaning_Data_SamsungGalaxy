@@ -17,49 +17,49 @@ Additional reading can be found at:http://vita.had.co.nz/papers/tidy-data.pdf
 
 2. The libraries are loaded that R will need
 
-3a. The general information files are uploaded.
-3b. The first file is the activity_labels.txt file containg all codes and names 1 to 6 
-3c. The second file is the features.txt file that contains all the measurements 1 to 561
+3. The general information files are uploaded.
+    The first file is the activity_labels.txt file containg all codes and names 1 to 6. 
+    The second file is the features.txt file that contains all the measurements 1 to 561.
 
-4a. The training files are uploaded and new column names are added 
-4b. To get the participants ids test/subject_test.txt is loaded
-4c. To get the participants activity test/y_test.txt is loaded
-4d. To get the participants data results test/X_test.txt is loaded
+4. The training files are uploaded and new column names are added. 
+    To get the participants ids test/subject_test.txt is loaded.
+    To get the participants activity test/y_test.txt is loaded.
+    To get the participants data results test/X_test.txt is loaded.
 
-5a. The test files are uploaded and new column names are added 
-5b. To get the participants ids train/subject_test.txt is loaded
-5c. To get the participants activity train/y_test.txt is loaded
-5d. To get the participants data results train/X_test.txt is loaded
+5. The test files are uploaded and new column names are added. 
+    To get the participants ids train/subject_test.txt is loaded.
+    To get the participants activity train/y_test.txt is loaded.
+    To get the participants data results train/X_test.txt is loaded.
 
-6a. The mean and std columns are selected for review (86 results)
-6b. The column names are edited to comply with the rules
+6. The mean and std columns are selected for review (86 results).
+    The column names are edited to comply with the rules.
 
 ### Final Stages in the Code for the output file
 
-7. The three final data tables are merged for the training data the final dataset is called TRAIN2
-8. The three final data tables are merged for the test data the final dataset is called TEST2
+7. The three final data tables are merged for the training data the final dataset is called TRAIN2.
+8. The three final data tables are merged for the test data the final dataset is called TEST2.
 
-9. The Final_Merge dataset combines the test and training data using the rbind function in R
-    The Final_Merge dataset has 10,299 rows and 89 columns
-    The columns start with the x,id,activity, 86 measrements
-    The rows are 7,352 from the train dataset and 2,947 from the test dataset
+9. The Final_Merge dataset combines the test and training data using the rbind function in R.
+    The Final_Merge dataset has 10,299 rows and 89 columns.
+    The columns start with the x,id,activity, 86 measrements.
+    The rows are 7,352 from the train dataset and 2,947 from the test dataset.
     
-    All commands relating to the test data are labeled test_
-    All commands relating to the train data are labeled train_
+    All commands relating to the test data are labeled test_.
+    All commands relating to the train data are labeled train_.
     There are also alot of notations/comments in the R code to clearify the steps in the code.
     
-10. The Final_Merge dataset contains all of the test and training data
-10a. This dataset is formated to replace the Activity Codes 1-6 with the Activity Names listed in the file
+10. The Final_Merge dataset contains all of the test and training data.
+    This dataset is formated to replace the Activity Codes 1-6 with the Activity Names listed in the file.
 
-11. To comply with the rules of tidy data the Measurement/Feature fields are melted
-11a. I used the gather function in R to melt the 86 Columns into 2 columns
-11b. The 2 columns/variables created were measurements and value
+11. To comply with the rules of tidy data the Measurement/Feature fields are melted.
+    I used the gather function in R to melt the 86 Columns into 2 columns.
+    The 2 columns/variables created were measurements and value.
 
-12. The final data set titles Melted_Data has 4 coulmns which are discussed in detail in the code book
+12. The final data set titles Melted_Data has 4 coulmns which are discussed in detail in the code book.
 
-13. Analysis was performed on the Melted_Data set so that we group by id, activity and measurement, the average value was derived
+13. Analysis was performed on the Melted_Data set so that we group by id, activity and measurement, the average value was derived.
 
-14. The final Analysis was presented in long form with 15,480 rows and 4 columns
+14. The final Analysis was presented in long form with 15,480 rows and 4 columns.
 
 Read below for further information.
 
