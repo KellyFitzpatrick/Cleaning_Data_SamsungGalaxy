@@ -104,7 +104,7 @@ tgravityaccstdz
 
 For more information on these values read the README file and the features_info files.
 
-Column 4 is the mean value of that measurement for each id and each activity labeled "value"
+Column 4 is the "meanvalue", mean value of that measurement for each id and each activity labeled "meanvalue"
    for more information on these values read the README file and the features_info files.
 
 Please read the README.md file for the description of the code and the process that was used to derive this output.
